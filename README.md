@@ -36,7 +36,7 @@ Applies dimensionality reduction (t-SNE/UMAP) to create intuitive 2D visualizati
 
 - **Python 3.x**
 - **Natural Language Processing**: Text embeddings, semantic analysis
-- **Machine Learning**: Dimensionality reduction (t-SNE/UMAP)
+- **Machine Learning**: Dimensionality reduction (t-SNE)
 - **Data Processing**: Pandas, NumPy
 - **Visualization**: Matplotlib/Seaborn
 
@@ -44,7 +44,7 @@ Applies dimensionality reduction (t-SNE/UMAP) to create intuitive 2D visualizati
 
 **Women's Clothing E-Commerce Reviews**
 - Reviews from an online clothing retailer
-- Focus on 'Review Text' field containing direct customer feedback
+- Focus on the 'Review Text' field containing direct customer feedback
 - Diverse opinions on product quality, fit, style, and overall experience
 
 ## 🔧 Installation
@@ -58,24 +58,6 @@ cd nlp-review-analysis
 pip install -r requirements.txt
 ```
 
-## 💻 Usage
-
-```python
-# Load and process reviews
-from review_analysis import ReviewAnalyzer
-
-# Initialize analyzer
-analyzer = ReviewAnalyzer()
-
-# Generate embeddings
-embeddings = analyzer.create_embeddings(reviews)
-
-# Find similar reviews
-similar = analyzer.find_similar_reviews("Absolutely wonderful - silky and sexy and comfortable")
-
-# Visualize review clusters
-analyzer.visualize_embeddings_2d()
-```
 
 ## 📈 Key Results
 
@@ -84,41 +66,13 @@ analyzer.visualize_embeddings_2d()
 - Achieved accurate similarity matching for personalized recommendations
 - Generated actionable insights through visual clustering analysis
 
-## 🎓 Skills Demonstrated
-
-- Natural Language Processing (NLP)
-- Text Embeddings and Vector Representations
-- Semantic Search and Similarity Metrics
-- Dimensionality Reduction Techniques
-- Data Visualization and Interpretation
-- Python Programming and ML Libraries
-
-## 📁 Project Structure
-
-```
-nlp-review-analysis/
-│
-├── data/
-│   └── womens_clothing_reviews.csv
-│
-├── notebooks/
-│   └── analysis.ipynb
-│
-├── src/
-│   ├── embeddings.py
-│   ├── clustering.py
-│   └── visualization.py
-│
-├── requirements.txt
-└── README.md
-```
 
 ## 🔮 Future Enhancements
 
 - Implement sentiment analysis scoring
 - Add real-time review processing pipeline
-- Integrate with product recommendation system
-- Deploy as web API for business integration
+- Integrate with the product recommendation system
+- Deploy as a web API for business integration
 
 ## 📝 License
 
