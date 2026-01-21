@@ -1,6 +1,6 @@
 # NLP-Powered Customer Review Analysis
 
-An intelligent system for analyzing e-commerce customer reviews using text embeddings and semantic search. This project demonstrates advanced NLP techniques to extract insights from customer feedback, enabling automated topic categorization and similarity-based search.
+A simple yet intelligent system for analyzing e-commerce customer reviews using text embeddings and semantic search. This project demonstrates advanced NLP techniques to extract insights from customer feedback, enabling automated topic categorization and similarity-based search.
 
 ## 🎯 Project Overview
 
